@@ -3,11 +3,11 @@ entries:
   cloud-logging:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-06-10T16:13:53.605382+03:00"
+    created: "2024-06-10T16:45:29.384281+03:00"
     description: A Helm chart for Kubernetes cloud logging stack
-    digest: a7a0cb1e3fe18e7d2ba61068985f24c6b1e9dd1b0a8fd03606210443fc071dab
+    digest: 5bd9e4ff95ea9297b09d353a9b68961f803c9fc7da066db871cf857637c1f166
     name: cloud-logging
     urls:
     - cloud-logging-0.1.2.tgz
     version: 0.1.2
-generated: "2024-06-10T16:13:53.603955+03:00"
+generated: "2024-06-10T16:45:29.382778+03:00"

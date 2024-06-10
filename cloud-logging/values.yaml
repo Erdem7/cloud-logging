@@ -1,0 +1,16 @@
+elasticsearch:
+  image: elasticsearch:7.9.0
+  replicas: 1
+  resources:
+    requests:
+      memory: 4Gi
+    limits:
+      memory: 5Gi
+
+kibana:
+  image: docker.elastic.co/kibana/kibana:7.9.0
+
+fluentbit:
+  image: fluent/fluent-bit:0.14.2
+  elasticsearchHost: elasticsearch.logging.svc.cluster.local
+  elasticsearchPort: 9200

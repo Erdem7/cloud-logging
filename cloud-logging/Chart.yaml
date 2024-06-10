@@ -1,0 +1,5 @@
+apiVersion: v2
+name: cloud-logging
+description: A Helm chart for Kubernetes cloud logging stack
+version: 0.1.2
+appVersion: "1.0"
